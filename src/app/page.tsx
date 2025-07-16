@@ -685,7 +685,7 @@ export default function Home() {
 
             {missions.length === 0 ? (
               <p className="text-gray-600 text-center py-8">
-                No missions found
+                No missions found. Create your first mission to get started!
               </p>
             ) : (
               <div className="space-y-4">
