@@ -1,3 +1,15 @@
+To run project run from root
+
+```bash
+uvicorn main:app --host 0.0.0.0 --port 8000
+```
+
+and from src/app
+
+```bash
+ npm run dev
+```
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
